@@ -25,7 +25,7 @@ var price=[400,385,200,350,100,300,50,70];
       appBar: AppBar(  leading: const Icon(Icons.list),
         title: const Text('SHRINE'),
         actions: const [Icon(Icons.search),
-          SizedBox(width: 20,),
+          SizedBox(width: 120,),
           Icon(   Icons.sort_outlined)],
       ),
       body: GridView.custom(gridDelegate:const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
